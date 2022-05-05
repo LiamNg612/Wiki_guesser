@@ -1,0 +1,85 @@
+/*#Ka Shuen Noelle Ng z5324130*/
+table, td, th {
+  border: 1px solid black;  /*Adding a border to the table */
+  text-align: left;/* Align the text to right*/
+}
+table {
+  border-collapse: collapse; /* let every border stick tgt*/
+}
+h3{ /* change the header font*/
+font-family: 'Noto Sans JP', sans-serif;
+}
+th, td {
+  padding: 15px;/* Increase the space of ech cell*/
+}
+table { /* centre the table*/
+  margin-left: auto;
+  margin-right: auto;
+}
+body { /* let background become blue*/
+  background-color: lightblue;
+}
+li { /* center the li and add border on the li top*/
+ border-top: 1px solid black;
+ padding: .7em 0;
+  list-style: none;/* remove the dot of list*/
+  width: 40%;
+  margin: auto;
+}
+
+* {/* centre all the element*/
+  padding: 0;
+text-align: center;
+
+}
+input[type=text] { /* change the input display*/
+    padding:5px;
+    border:2px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type=text]:focus { /* change border color when user is click on the box*/
+    border-color:#333;
+}
+
+input[type=submit] {/* change the submit button display*/
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+}
+li:hover ,tr:hover{ /* hover to change color */
+  background-color:#42f5c2;
+}
+button {
+  background-color: #e7e7e7;
+    color: black;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 16px;
+}
+img{
+    height: auto;
+    width: 20%;
+}
+
+#response {
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#grid{
+    display: grid;
+   grid-template-columns: 0.25fr;
+}
+#result{
+     background-color: antiquewhite;
+    grid-column:1/2;
+}
+#content{
+    background-color: ghostwhite;
+    grid-column:2/3;=
+    padding: 10px
+}
